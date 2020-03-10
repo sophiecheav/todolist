@@ -1,0 +1,9 @@
+/*quand myCheckBox coché dans js
+opacity=50;
+text-decoration:line-through*/
+
+input:checked + label
+{
+  opacity: 0.33;
+  text-decoration: line-through;
+}
