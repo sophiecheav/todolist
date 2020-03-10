@@ -1,3 +1,22 @@
+body
+{
+    font-family: 'Indie Flower', cursive;
+    background-color: #5b8e7d;
+    color: #fcd0a1;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1
+{
+  font-size: 2.5em;
+}
+
+ul
+{
+  font-size: 1.4em;
+}
+
 input:checked + #list
 {
   opacity: 0.33;
