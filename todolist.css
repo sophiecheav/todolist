@@ -1,8 +1,10 @@
-/*quand myCheckBox coché dans js
-opacity=50;
-text-decoration:line-through*/
+input:checked + #list
+{
+  opacity: 0.33;
+  text-decoration: line-through;
+}
 
-input:checked + label
+input:checked + #task
 {
   opacity: 0.33;
   text-decoration: line-through;
